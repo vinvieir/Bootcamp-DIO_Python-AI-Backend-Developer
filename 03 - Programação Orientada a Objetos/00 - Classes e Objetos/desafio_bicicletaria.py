@@ -14,8 +14,16 @@ class Bicicleta:
     def correr(self):
         print("Vrummmmmmm...")
 
+    def __str__(self):
+        return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
+
 athena = Bicicleta("vermelha", "caloi", 2024, 500)
 
 athena.buzinar()
 athena.correr()
 athena.parar()
+
+print(athena.cor, athena.modelo, athena.ano, athena.valor)
+
+artemis = Bicicleta("verde", "monark", 2000, 340)
+Bicicleta.buzinar(artemis)
