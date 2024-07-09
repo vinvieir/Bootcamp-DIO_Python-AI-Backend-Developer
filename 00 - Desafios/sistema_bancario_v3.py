@@ -1,5 +1,5 @@
 import textwrap
-from abc import ABC, classmethod, abstractmethod
+from abc import ABC, abstractmethod
 from datetime import datetime
 
 

@@ -1,0 +1,2 @@
+[2024-07-09 09:41:42] Função 'criar_cliente' executada com argumentos ([<PessoaFisica: ('Pablo', '3')>],) e {}. Retornou None
+[2024-07-09 09:44:50] Função 'criar_cliente' executada com argumentos ([<PessoaFisica: ('Pablo', '3')>, <PessoaFisica: ('a', '2')>],) e {}. Retornou None
